@@ -1,0 +1,6 @@
+{
+  "name": "FastAPI Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "extensions": ["ms-python.python"],
+  "postCreateCommand": "pip install -r dependencies/requirements.txt"
+}
